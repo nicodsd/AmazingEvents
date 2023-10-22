@@ -16,7 +16,7 @@ function agregarEventoAlHtml(evento) {
                 <div class="card-body d-flex flex-column justify-content-end">
                     <div class="d-flex flex-column fw-bolder text-start fs-4">
                         <p>$${evento.price}</p>
-                        <a href="../paginas/details.html?id=${evento.name}" class="btn btn-danger col-12">More Details!</a>
+                        <a href="./assets/paginas/details.html?id=${evento.name}" class="btn btn-danger col-12">More Details!</a>
                     </div>
                 </div>
             </article>`;
